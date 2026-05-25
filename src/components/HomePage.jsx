@@ -7,7 +7,7 @@ function HomePage() {
         <div className="flex flex-col md:flex-row items-start gap-6 my-6 max-w-4xl m-auto">
           <div className="flex-shrink-0 flex flex-col items-center md:items-start">
             <img
-              src="/portrait.jpg"
+              src="portrait.jpg"
               alt="portrait"
               className="rounded-lg shadow-lg w-60 h-auto object-cover"
             />
@@ -97,7 +97,7 @@ function HomePage() {
                   (Expected Graduation: 2026)
                 </p>
               }
-              imageUrl="/CSEIcon.png"
+              imageUrl="CSEIcon.png"
               alt="HKUST CSE Icon"
             />
             <DisplayCard
@@ -115,7 +115,7 @@ function HomePage() {
                   Period: 2021-2023
                 </p>
               }
-              imageUrl="/HKCCIcon.png"
+              imageUrl="HKCCIcon.png"
               alt="HKCC Icon"
             />
           </div>
