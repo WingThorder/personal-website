@@ -8,7 +8,14 @@ function ProjectsPage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <DisplayCard
           id="museum-ai"
-          title="Museum AI Assistant Web Application"
+          title={
+            <a
+              href="https://github.com/WingThorder/open-webui-Museum-Assistant"
+              target="_blank"
+            >
+              Museum AI Assistant Web Application
+            </a>
+          }
           description={
             <div>
               <p className="mb-2">
@@ -42,7 +49,14 @@ function ProjectsPage() {
 
         <DisplayCard
           id="supersandwich"
-          title="SuperSandwich Game"
+          title={
+            <a
+              href="https://github.com/WingThorder/COMP4021-Group-Project"
+              target="_blank"
+            >
+              SuperSandwich Game
+            </a>
+          }
           description={
             <div>
               <p className="mb-2">
