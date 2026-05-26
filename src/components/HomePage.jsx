@@ -41,10 +41,10 @@ function HomePage() {
                     <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm-1 4l-7 4-7-4V6l7 4 7-4v2z" />
                   </svg>
                   <a
-                    href="mailto:leo@example.com"
+                    href="mailto:leo380687@gmail.com"
                     className="ml-2 text-blue-600 hover:underline"
                   >
-                    leo@380687@gmail.com
+                    leo380687@gmail.com
                   </a>
                 </li>
 
@@ -93,8 +93,7 @@ function HomePage() {
               description={
                 <p>
                   Bechalor of Engineering in Computer Science <br /> Study
-                  Period: 2023-Present <br />
-                  (Expected Graduation: 2026)
+                  Period: 2023-2026
                 </p>
               }
               imageUrl="CSEIcon.png"
