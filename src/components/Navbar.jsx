@@ -18,7 +18,6 @@ function Navbar({ currentPage, onNavigate }) {
           <div>
             {/* <a>'s background tuurns little white when I hover it*/}
             <a
-              href="homePage"
               className={linkClasses("home")}
               onClick={() => hoverClick("home")}
             >
@@ -26,14 +25,12 @@ function Navbar({ currentPage, onNavigate }) {
             </a>
 
             <a
-              href="skillsPage"
               className={linkClasses("skills")}
               onClick={() => hoverClick("skills")}
             >
               Skills
             </a>
             <a
-              href="projectsPage"
               className={linkClasses("projects")}
               onClick={() => hoverClick("projects")}
             >
